@@ -1,6 +1,9 @@
 name: dart_attempts_lib
 description: Test Library for dart-attempts polymer sample app
 dependencies:
-  observe: any
+  polymer: any
 dev_dependencies:
   unittest: any
+transformers:
+- polymer:
+    entry_points:
